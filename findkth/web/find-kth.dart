@@ -28,81 +28,69 @@ class FindKth extends PolymerElement {
   }
   
   // Step helpers
-  void resetSteps() => stepState.reset(a, b);
   void addRecurseStep(int leftOffset, int rightOffset, int k) =>
-      stepState.steps.add(new Step_Recurse(stepState, leftOffset, rightOffset, k));
+      stepState.add(new Step_Recurse(stepState, leftOffset, rightOffset, k));
   void addCompareStep(int leftOffset, int leftK, int rightOffset, int rightK) =>
-      stepState.steps.add(new Step_Compare(stepState, leftOffset, leftK, rightOffset, rightK));
-  void addRejectStep(int leftOffset, int leftK, int rightOffset, int rightK, bool isA) =>
-      stepState.steps.add(new Step_Reject(stepState, leftOffset, leftK, rightOffset, rightK, isA));
-  void addKthStep(int k, bool isA) =>
-      stepState.steps.add(new Step_Kth(stepState, k, isA));
+      stepState.add(new Step_Compare(stepState, leftOffset, leftK, rightOffset, rightK));
+  void addRejectStep(int leftOffset, int leftK, int rightOffset, int rightK, bool isLeft) =>
+      stepState.add(new Step_Reject(stepState, leftOffset, leftK, rightOffset, rightK, isLeft));
+  void addKthStep(int leftOffset, int rightOffset, bool isLeft) =>
+      stepState.add(new Step_Kth(stepState, leftOffset, rightOffset, isLeft));
   
-  int findkth(List<int> left, int left_offset, List<int> right, int right_offset, int k) {
-    addRecurseStep(left_offset, right_offset, k);
+  int findkth(List<int> left, int leftOffset, List<int> right, int rightOffset, int k) {
+    addRecurseStep(leftOffset, rightOffset, k);
 
     int newk = k ~/ 2;
     int kmod = k % 2;
 
     if (k == 1) {
-      if (left[left_offset] < right[right_offset]) {
-        addKthStep(k, true);
-        kthCell(this.$['a'].querySelectorAll('.cell')[left_offset]);
-        return left[left_offset];
+      addCompareStep(leftOffset, leftOffset, rightOffset, rightOffset);
+      if (left[leftOffset] < right[rightOffset]) {
+        addKthStep(leftOffset, rightOffset, true);
+        return left[leftOffset];
       } else {
-        addKthStep(k, false);
-        kthCell(this.$['b'].querySelectorAll('.cell')[right_offset]);
-        return right[right_offset];
+        addKthStep(leftOffset, rightOffset, false);
+        return right[rightOffset];
       }
-    } else if (left[left_offset + newk - 1] > right[right_offset + newk + kmod - 1]) {
-      addCompareStep(left_offset, left_offset + newk, right_offset, right_offset + newk + kmod);
-      ElementList b_cells = this.$['b'].querySelectorAll('.cell');
-      for (int i = right_offset; i < right_offset + newk + kmod; ++i) {
-        b_cells[i].classes.add('rejected');
-      }
-      return findkth(left, left_offset, right, right_offset + newk + kmod, newk);
+    } else if (left[leftOffset + newk - 1] > right[rightOffset + newk + kmod - 1]) {
+      addCompareStep(leftOffset, leftOffset + newk - 1, rightOffset, rightOffset + newk + kmod - 1);
+      addRejectStep(leftOffset, leftOffset + newk - 1, rightOffset, rightOffset + newk + kmod - 1, true);
+      return findkth(left, leftOffset, right, rightOffset + newk + kmod, newk);
     } else {
-      ElementList a_cells = this.$['a'].querySelectorAll('.cell');
-      for (int i = left_offset; i < left_offset + newk; ++i) {
-        a_cells[i].classes.add('rejected');
-      }
-      return findkth(left, left_offset + newk, right, right_offset, newk + kmod);
+      addCompareStep(leftOffset, leftOffset + newk - 1, rightOffset, rightOffset + newk + kmod - 1);
+      addRejectStep(leftOffset, leftOffset + newk - 1, rightOffset, rightOffset + newk + kmod - 1, false);
+      return findkth(left, leftOffset + newk, right, rightOffset, newk + kmod);
     }
   }
   
   void calc() {
-    print('calc');
-    reset();
-    stepState.reset(
-      this.$['a'].querySelectorAll('.cell'),
-      this.$['b'].querySelectorAll('.cell'));
+    stepState.clear();
 
     kth = findkth(a, 0, b, 0, k);
     
-    print('#steps = ' + stepState.steps.length.toString());
-  }
-  void rejectCell(Element cell) {
-    cell.classes.add('rejected');
-  }
-  void kthCell(Element cell) {
-    cell.classes.add('kth');
-  }
-  void resetCell(Element cell) {
-    cell.classes.removeAll(['rejected', 'kth']);
-  }
-  void reset() {
-    this.$['a'].querySelectorAll('.cell').forEach(resetCell);
-    this.$['b'].querySelectorAll('.cell').forEach(resetCell);
+    this.$['startStep'].attributes.remove('disabled');
+    this.$['resetStep'].attributes['disabled'] = "1";
+    this.$['nextStep'].attributes['disabled'] = "1";
+    this.$['prevStep'].attributes['disabled'] = "1";
   }
 
+  void startStep() {
+    stepState.start(this.$['a'].querySelectorAll('.cell'),
+                    this.$['b'].querySelectorAll('.cell'),
+                    this.$['steps'].querySelectorAll('.cell'),
+                    this.$['startStep'],
+                    this.$['resetStep'],
+                    this.$['nextStep'],
+                    this.$['prevStep']);
+  }
   void resetStep() {
-    print('resetStep');
+    stepState.reset();
   }
   void prevStep() {
-    print('prevStep');
+    stepState.prev();
   }
   void nextStep() {
-    print('nextStep');
+    stepState.next();
   }
 }
 

@@ -1,7 +1,6 @@
 library filters;
 
 import 'package:polymer_expressions/filter.dart';
-import 'kth-steps.dart';
 
 class SpaceSepStringToInts extends Transformer<String, List<int>> {
   final StringToInt asInt = new StringToInt();

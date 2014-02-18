@@ -18,9 +18,22 @@
   transition: background-color 2s;
   -webkit-transition: background-color 2s;
 }
+
 .rejected {
-  background-color: gray;
+  background-color: DarkGray;
 }
 .kth {
   background-color: green;
+}
+.selected {
+  border: solid black 1px;
+}
+.chosen {
+  border: solid blue 1px;
+}
+.notchosen {
+  border: solid red 1px;
+}
+.maybe {
+  background-color: LightBlue;
 }
