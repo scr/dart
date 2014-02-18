@@ -33,10 +33,9 @@ class StepState extends Observable {
     this.nextButton = nextButton;
     this.prevButton = prevButton;
     
-    startButton.attributes['disabled'] = "1";
+    startButton.attributes['disabled'] = '1';
     resetButton.attributes.remove('disabled');
     nextButton.attributes.remove('disabled');
-    prevButton.attributes.remove('disabled');
 
     reset();
   }
@@ -52,6 +51,7 @@ class StepState extends Observable {
   void next() {
     if (step == null) {
       step = 0;
+      prevButton.attributes.remove('disabled');
     } else {
       steps[step].end();
       Step.resetCell(stepCells[step++]);
@@ -59,17 +59,24 @@ class StepState extends Observable {
     if (step < steps.length) {
       Step.selectCell(stepCells[step]);
       steps[step].begin();
+    } else {
+      nextButton.attributes['disabled'] = '1';
     }
   }
   void prev() {
     if (step == null)
       return;
     
-    steps[step].reset();
-    Step.resetCell(stepCells[step]);
+    if (step < steps.length) {
+      steps[step].reset();
+      Step.resetCell(stepCells[step]);
+    } else {
+      nextButton.attributes.remove('disabled');
+    }
     
     if (step == 0) {
       step = null;
+      prevButton.attributes['disabled'] = '1';
     } else {
       Step.selectCell(stepCells[--step]);
       steps[step].begin();

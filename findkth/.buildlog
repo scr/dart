@@ -2693,3 +2693,418 @@ build.dart --machine --changed=web/kth-steps.dart
 
 build.dart finished [908 ms]
 
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [881 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [856 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [868 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [809 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [875 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+build.dart finished [887 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+build.dart finished [834 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+build.dart finished [859 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [839 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [803 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [850 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [892 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [866 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [822 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [830 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [803 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [856 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [839 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [832 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [853 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [831 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [843 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [890 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [846 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [892 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [861 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [1003 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [916 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [882 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [883 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [931 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [878 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [849 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [850 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [890 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [851 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [821 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [874 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [826 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [845 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+build.dart finished [842 ms]
+
+---
+build.dart --machine --changed=web/find-kth.html
+
+build.dart finished [862 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [872 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [925 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [3330 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [3208 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [3075 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [3820 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [3300 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [3134 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [3634 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html
+
+build.dart finished [3200 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [889 ms]
+
+---
+build.dart --machine --changed=web/find-kth.html
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+[{"method":"warning","params":{"file":"web/find-kth.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":48}}]
+build.dart finished [907 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [819 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [895 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html
+
+build.dart finished [850 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1080 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html --chan...
+
+build.dart finished [839 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html --remo...
+
+build.dart finished [834 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [831 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [819 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html --chan...
+
+build.dart finished [858 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [843 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [847 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [899 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [841 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [910 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [856 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [835 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [829 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=web/kth-steps.dart
+
+build.dart finished [897 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html --remo...
+
+build.dart finished [1035 ms]
+

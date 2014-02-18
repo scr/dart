@@ -1,7 +1,7 @@
 name: findkth
 description: A sample Polymer application
 dependencies:
-    polymer: any
+  polymer: any
 transformers:
 - polymer:
-    entry_points: web/findkth.html
+    entry_points: web/index.html
