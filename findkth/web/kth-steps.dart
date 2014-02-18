@@ -111,6 +111,13 @@ abstract class Step {
   static void unchooseCell(Element cell) => chooseCell(cell, false);
   static void unnotchosenCell(Element cell) => notchosenCell(cell, false);
   
+  void maybeToRejectCells(List cells) {
+    for (Element cell in cells) {
+      if (cell.classes.remove('maybe'))
+        cell.classes.add('rejected');
+    }
+  }
+  
   // Abstract
   String toString();
   void begin();
@@ -223,19 +230,10 @@ class Step_Kth extends Step {
     Step.kthCell(cell);
   }
 
-  void maybeToRejectCells(ElementList cells) {
-    for (Element cell in cells) {
-      if (cell.classes.remove('maybe')) {
-        cell.classes.add('rejected');
-      } else {
-        return;
-      }
-    }
-  }
-  
   void begin() {
     forceKth(isLeft ? state.leftCells[leftOffset] : state.rightCells[rightOffset]);
-    maybeToRejectCells(isLeft ? state.rightCells : state.leftCells);
+    maybeToRejectCells(state.leftCells);
+    maybeToRejectCells(state.rightCells);
   }
   void end() {}
   void reset() {

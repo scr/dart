@@ -15,8 +15,9 @@
 .cell {
   display: table-cell;
   text-align: center;
-  transition: background-color 2s;
-  -webkit-transition: background-color 2s;
+  transition: background-color 1s, border .25s;
+  -webkit-transition: background-color 1s, border .25s;
+  border: solid transparent 1px;
 }
 
 .rejected {
