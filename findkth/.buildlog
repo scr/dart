@@ -3108,3 +3108,28 @@ build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --
 
 build.dart finished [1035 ms]
 
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html --chan...
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [842 ms]
+
+---
+build.dart --machine --changed=web/index.html
+
+build.dart finished [808 ms]
+
+---
+build.dart --machine --removed=build/find-kth.css --removed=build/findkth.css --removed=build/index.html --remo...
+
+build.dart finished [1088 ms]
+
+---
+build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html --chan...
+
+build.dart finished [1000 ms]
+
