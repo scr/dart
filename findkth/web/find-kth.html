@@ -1,0 +1,48 @@
+<polymer-element name="find-kth" attributes="k">
+  <link rel="stylesheet" href="find-kth.css" />
+  <template>
+    <input type="text" value="{{a | asSpaceSepInts}}" />
+    <input type="text" value="{{b | asSpaceSepInts}}" />
+    <input type="number" value="{{k | asInt}}" />
+    <button on-click="{{calc}}">calc</button>
+    <button on-click="{{reset}}">reset</button>
+    <div class="tables">
+      <div class="table" id="a">
+        <template repeat="{{num in a}}">
+          <div class="row">
+            <div class="cell">{{num | asInt}}</div>
+          </div>
+        </template>
+      </div>
+      <div class="table" id="b">
+        <template repeat="{{num in b}}">
+          <div class="row">
+            <div class="cell">{{num | asInt}}</div>
+          </div>
+        </template>
+      </div>
+    </div>
+    <div><label>kth:</label><span>{{kth}}</span></div>
+    <div class="steps">
+      <div><label>StepsState:</label></div>
+      <div class="controls">
+        <button on-click="{{resetStep}}">reset</button>
+        <button on-click="{{prevStep}}">prev</button>
+        <button on-click="{{nextStep}}">next</button>
+      </div>
+      <div class="state">
+        <div>{{stepState.step}}</div>
+      </div>
+      <div class="table">
+        <label>Steps:</label><span>{{stepState.steps.length}}</span>
+        <template repeat="{{step in stepState.steps}}">
+          <div class="row">
+            <div class="cell">{{step}}</div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="find-kth.dart"></script>
+</polymer-element>
+

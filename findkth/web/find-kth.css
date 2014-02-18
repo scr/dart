@@ -1,0 +1,26 @@
+.tables {
+  display: flex;
+  flex-layout: row;
+  max-width: 15em;
+  justify-content: space-around;
+}
+.table {
+  display: table;
+  border: 1px solid black;
+  min-width: 5em;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  text-align: center;
+  transition: background-color 2s;
+  -webkit-transition: background-color 2s;
+}
+.rejected {
+  background-color: gray;
+}
+.kth {
+  background-color: green;
+}
