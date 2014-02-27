@@ -362,3 +362,13 @@ build.dart --machine --changed=web/shared.css
 
 build.dart finished [997 ms]
 
+---
+build.dart --machine --changed=pubspec.lock --changed=web/oscar-category.html --changed=web/oscar-entries.dart ...
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html --changed=web/oscar-entries.html --changed=web/oscars.cs...
+
+build.dart finished [1942 ms]
+

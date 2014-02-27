@@ -11,3 +11,22 @@ h1, p {
   color: #333;
 }
 
+body ^^ .table {
+  display: table;
+}
+body ^^ .row {
+  display: table-row;
+}
+body ^^ .cell {
+  display: table-cell;
+}
+body ^^ .even-column {
+  border: 1px solid black;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body ^^ .col {
+  border: 1px solid black;
+}
