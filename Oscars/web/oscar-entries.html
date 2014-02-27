@@ -1,0 +1,19 @@
+<link rel="import" href="oscar-category.html" />
+
+<polymer-element name="oscar-entries">
+  <link rel="stylesheet" href="shared.css" />
+  <template>
+  <label>Oscars:</label>
+  <div class="table">
+    <template repeat="{{category in oscars.keys}}">
+      <div class="row">
+        <div class="cell">
+          <oscar-category name="{{category}}" nominees="{{oscars[category]}}"></oscar-category>
+        </div>
+      </div>
+    </template>
+  </div>
+  </template>
+  <script type="application/dart" src="oscar-entries.dart"></script>
+</polymer-element>
+

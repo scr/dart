@@ -1,0 +1,23 @@
+<polymer-element name="bubble-sort">
+  <link rel="stylesheet" href="bubble-sort.css" />
+  <template>
+  <div class="title">Bubble Sort</div>
+  <div class="input">
+    <input type="text" value="{{numbers | asSpaceSepInts}}" />
+    <button on-click="{{calc}}">bubble1</button>
+    <button on-click="{{calc2}}">bubble2</button>
+    <button on-click="{{calc3}}">quick1</button>
+  </div>
+  <label>Iterations:</label><span>{{iterations}}</span>
+  <label>Swap Iterations:</label><span>{{swapIterations}}</span>
+  <div class="table">
+    <div class="row">
+      <template repeat="{{number in numbers}}">
+        <div class="cell">{{number | asInt}}</div>
+      </template>
+    </div>
+  </div>
+  </template>
+  <script type="application/dart" src="bubble-sort.dart"></script>
+</polymer-element>
+

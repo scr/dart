@@ -1,0 +1,364 @@
+---
+build.dart --machine --full
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=web/oscars.json
+
+build.dart finished [893 ms]
+
+---
+build.dart --machine --changed=web/oscars.json
+
+build.dart finished [877 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html --removed=web/clickcounter.html
+[{"method":"error","params":{"file":"web/oscars.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Oscars\".","line":10,"charStart":183,"charEnd":227}}]
+[{"method":"warning","params":{"file":"web/oscars.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":486,"charEnd":511}}]
+build failed with errors: {Transform polymer (Linter) on Oscars|web/oscars.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Oscars".}
+build.dart finished [906 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart --removed=web/clickcounter.dart
+[{"method":"error","params":{"file":"web/oscars.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Oscars\".","line":10,"charStart":183,"charEnd":227}}]
+[{"method":"warning","params":{"file":"web/oscars.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":486,"charEnd":511}}]
+build failed with errors: {Transform polymer (Linter) on Oscars|web/oscars.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Oscars".}
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/oscars.html
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=web/oscars.html
+[{"method":"warning","params":{"file":"web/oscars.html","message":"definition for Polymer element with tag name \"oscar-entries\" not found.","line":20,"charStart":487,"charEnd":502}}]
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [906 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [905 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart
+
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=web/oscars.html
+
+build.dart finished [916 ms]
+
+---
+build.dart --machine --changed=web/oscars.html
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1152 ms]
+
+---
+build.dart --machine --changed=web/oscars.json
+
+build.dart finished [910 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart
+
+build.dart finished [917 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart
+
+build.dart finished [917 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart
+
+build.dart finished [895 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart
+
+build.dart finished [907 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [917 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.dart
+
+build.dart finished [926 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [915 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.css
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [905 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.css
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [940 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [917 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [939 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [929 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+[{"method":"warning","params":{"file":"web/oscar-entries.html","message":"definition for Polymer element with tag name \"oscar-category\" not found.","line":8,"charStart":254,"charEnd":290}}]
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [931 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [1128 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [947 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [947 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [953 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [932 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --removed=web/oscar-entries.css
+
+build.dart finished [932 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1052 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [941 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [1024 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [939 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [940 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [943 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web/shared.css
+
+build.dart finished [997 ms]
+

@@ -1,0 +1,14 @@
+<polymer-element name="oscar-category" attributes="name,nominees">
+  <link rel="stylesheet" href="shared.css" />
+  <template>
+    <div class="even-column">
+      <div class="col">{{name}}</div>
+      <div class="col">
+        <template repeat="{{nominees}}">
+          <div>{{}}</div>
+        </template>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="oscar-category.dart"></script>
+</polymer-element>

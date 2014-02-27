@@ -1,0 +1,453 @@
+---
+build.dart --machine --full
+
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [893 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort --removed=web/clickcounter.dart
+
+build.dart finished [905 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart --removed=web/bubble-sort
+
+build.dart finished [910 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html --removed=web/clickcounter.html
+[{"method":"error","params":{"file":"web/bubblesort.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Bubblesort\".","line":10,"charStart":187,"charEnd":231}}]
+[{"method":"warning","params":{"file":"web/bubblesort.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":494,"charEnd":519}}]
+build failed with errors: {Transform polymer (Linter) on Bubblesort|web/bubblesort.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Bubblesort".}
+build.dart finished [868 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+[{"method":"error","params":{"file":"web/bubblesort.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Bubblesort\".","line":10,"charStart":187,"charEnd":231}}]
+[{"method":"warning","params":{"file":"web/bubblesort.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":494,"charEnd":519}}]
+build failed with errors: {Transform polymer (Linter) on Bubblesort|web/bubblesort.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Bubblesort".}
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+[{"method":"error","params":{"file":"web/bubblesort.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Bubblesort\".","line":10,"charStart":187,"charEnd":231}}]
+[{"method":"warning","params":{"file":"web/bubblesort.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":494,"charEnd":519}}]
+build failed with errors: {Transform polymer (Linter) on Bubblesort|web/bubblesort.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Bubblesort".}
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+[{"method":"error","params":{"file":"web/bubblesort.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Bubblesort\".","line":10,"charStart":187,"charEnd":231}}]
+[{"method":"warning","params":{"file":"web/bubblesort.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":494,"charEnd":519}}]
+build failed with errors: {Transform polymer (Linter) on Bubblesort|web/bubblesort.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Bubblesort".}
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+[{"method":"error","params":{"file":"web/bubblesort.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Bubblesort\".","line":10,"charStart":187,"charEnd":231}}]
+[{"method":"warning","params":{"file":"web/bubblesort.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":494,"charEnd":519}}]
+build failed with errors: {Transform polymer (Linter) on Bubblesort|web/bubblesort.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Bubblesort".}
+build.dart finished [913 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+[{"method":"error","params":{"file":"web/bubblesort.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"Bubblesort\".","line":10,"charStart":187,"charEnd":231}}]
+[{"method":"warning","params":{"file":"web/bubblesort.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":494,"charEnd":519}}]
+build failed with errors: {Transform polymer (Linter) on Bubblesort|web/bubblesort.html threw error: couldn't find imported asset "web/clickcounter.html" in package "Bubblesort".}
+build.dart finished [867 ms]
+
+---
+build.dart --machine --changed=web/bubblesort.html
+
+build.dart finished [897 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [1106 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [897 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [877 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [894 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [906 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [910 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.css
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [899 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [916 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [926 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected character after attribute name.","line":10,"charStart":284,"charEnd":324}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected character after / in tag. Expected >","line":10,"charStart":284,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"End tag (div) seen too early. Expected other end tag.","line":12,"charStart":332,"charEnd":338}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected end tag (template). Ignored.","line":13,"charStart":341,"charEnd":352}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected end tag (polymer-element). Ignored.","line":15,"charStart":420,"charEnd":438}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Expected closing tag. Unexpected end of file.","line":8,"charStart":236,"charEnd":255}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected character after attribute name.","line":10,"charStart":284,"charEnd":324}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected character after / in tag. Expected >","line":10,"charStart":284,"charEnd":326}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"End tag (div) seen too early. Expected other end tag.","line":12,"charStart":332,"charEnd":338}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected end tag (template). Ignored.","line":13,"charStart":341,"charEnd":352}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Unexpected end tag (polymer-element). Ignored.","line":15,"charStart":420,"charEnd":438}}]
+[{"method":"warning","params":{"file":"web/bubble-sort.html","message":"Expected closing tag. Unexpected end of file.","line":8,"charStart":236,"charEnd":255}}]
+build.dart finished [1066 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [894 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [908 ms]
+
+---
+build.dart --machine --removed=web/ui-filters.dart
+
+build.dart finished [925 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [1027 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [896 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.css
+
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.css
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.css
+
+build.dart finished [939 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.css
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [887 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [888 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [916 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [924 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [937 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [887 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [924 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [928 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [891 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [931 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [904 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [925 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [905 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [889 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [1168 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [904 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [907 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [911 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.html
+
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [940 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [885 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [935 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [937 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [924 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [911 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [938 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web/bubble-sort.dart
+
+build.dart finished [911 ms]
+
