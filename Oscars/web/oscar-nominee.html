@@ -1,0 +1,10 @@
+<polymer-element name="oscar-nominee" attributes="name,points,checked">
+  <template>
+    <div class="nominee">
+      <input type="checkbox" checked="{{checked}}" />
+      <input type="number" value="{{points | asDouble}}" />
+      <span class="name">{{name}}</span>
+    </div>
+  </template>
+  <script type="application/dart" src="oscar-nominee.dart"></script>
+</polymer-element>

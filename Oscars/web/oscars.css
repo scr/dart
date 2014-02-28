@@ -39,3 +39,6 @@ body ^^ .nominee {
   display: flex;
   flex-direction: row;
 }
+body ^^ oscar-nominee span {
+  flex-grow: 1;
+}
