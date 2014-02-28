@@ -2,17 +2,11 @@
 
 <polymer-element name="oscar-entries">
   <template>
-  <label>Oscars:</label>
-  <div class="table">
+  <div class="oscars">
     <template repeat="{{category in oscars.keys}}">
-      <div class="row">
-        <div class="cell">
-          <oscar-category name="{{category}}" nominees="{{oscars[category]}}"></oscar-category>
-        </div>
-      </div>
+	  <oscar-category name="{{category}}" nominees="{{oscars[category]}}"></oscar-category>
     </template>
   </div>
   </template>
   <script type="application/dart" src="oscar-entries.dart"></script>
 </polymer-element>
-

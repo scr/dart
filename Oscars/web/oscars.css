@@ -20,13 +20,22 @@ body ^^ .row {
 body ^^ .cell {
   display: table-cell;
 }
-body ^^ .even-column {
+body ^^ .category {
   border: 1px solid black;
-  width: 600px;
+  width: 800px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-content: stretch;
 }
-body ^^ .col {
-  border: 1px solid black;
+body ^^ .name,
+body ^^ .nominees {
+  flex-basis: 20%;
+}
+body ^^ .nominees {
+  flex-grow: 1;
+}
+
+body ^^ .nominee {
+  display: flex;
+  flex-direction: row;
 }

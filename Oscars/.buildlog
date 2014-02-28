@@ -372,3 +372,1011 @@ build.dart --machine --changed=web/oscar-category.html --changed=web/oscar-entri
 
 build.dart finished [1942 ms]
 
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [919 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [941 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [835 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [855 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1051 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [882 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [904 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1048 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1046 ms]
+
+---
+build.dart --machine --changed=web/oscars.html
+
+build.dart finished [1064 ms]
+
+---
+build.dart --machine --changed=web/oscar-entries.html
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [904 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [904 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [924 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [871 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1048 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1021 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1111 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1225 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1173 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [889 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [903 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1234 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [884 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [906 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [894 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1215 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [891 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1212 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [1119 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [921 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [890 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [943 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [912 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [1236 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1028 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [1274 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1193 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1165 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [990 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1166 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [900 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1247 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [999 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [913 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [923 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1196 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [926 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1205 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1008 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [952 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [896 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1171 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [907 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [1203 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [890 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1194 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [893 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1158 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [891 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1191 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1259 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1080 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [1284 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [1219 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+[{"method":"warning","params":{"file":"web/oscar-nominee.html","message":"Unexpected end tag (input). Ignored.","line":5,"charStart":233,"charEnd":241}}]
+[{"method":"warning","params":{"file":"web/oscar-nominee.html","message":"Unexpected end tag (input). Ignored.","line":5,"charStart":233,"charEnd":241}}]
+[{"method":"warning","params":{"file":"web/oscar-nominee.html","message":"Unexpected end tag (input). Ignored.","line":5,"charStart":233,"charEnd":241}}]
+[{"method":"warning","params":{"file":"web/oscar-nominee.html","message":"Unexpected end tag (input). Ignored.","line":5,"charStart":233,"charEnd":241}}]
+build.dart finished [928 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [905 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [895 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [900 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [961 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [907 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [950 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [925 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [901 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web/oscars.css
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [1042 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [917 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [1130 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [913 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [943 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [906 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [962 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [937 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [947 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [1227 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [929 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [958 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [933 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [916 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.html
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [948 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [956 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=web/my_element.dart --changed=web/my_element.html
+
+build.dart finished [1058 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [972 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1237 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [941 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1063 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1042 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1324 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1141 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1039 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1315 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1125 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1087 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1120 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [920 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [987 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [971 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [1002 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [919 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [919 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [965 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1007 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [968 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [974 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [946 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [957 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [941 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [915 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [928 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [972 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [930 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1062 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [988 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [959 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [976 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [964 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [1003 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [909 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [944 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [953 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [913 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web/ui-filters.dart
+
+build.dart finished [967 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [955 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [996 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.html
+
+build.dart finished [969 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [954 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [972 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [1126 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [1171 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [1586 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [990 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart --changed=web/oscar-category.html --changed=web/oscar-en...
+
+build.dart finished [996 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [977 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [934 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [908 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [899 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [945 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart --changed=web/oscar-category.html --changed=web/oscar-en...
+
+build.dart finished [1092 ms]
+
+---
+build.dart --machine --changed=web/oscar-nominee.dart
+
+build.dart finished [959 ms]
+

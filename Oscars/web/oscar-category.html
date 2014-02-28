@@ -1,10 +1,12 @@
+<link rel="import" href="oscar-nominee.html" />
+
 <polymer-element name="oscar-category" attributes="name,nominees">
   <template>
-    <div class="even-column">
-      <div class="col">{{name}}</div>
-      <div class="col">
-        <template repeat="{{nominees}}">
-          <div>{{}}</div>
+    <div class="category">
+      <div class="name">{{name}}</div>
+      <div class="nominees" id="nominees">
+        <template repeat="{{nominee in nominees}}">
+          <oscar-nominee name="{{nominee}}"></oscar-nominee>
         </template>
       </div>
     </div>
