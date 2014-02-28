@@ -33,6 +33,8 @@ class OscarCategory extends PolymerElement {
       oscarNominees.forEach((OscarNominee nominee) {
         nominee.points = nominee.checked ? splitScore : 0.0;
       });
+    } else if (record.name == #points) {
+      record.object.checked = record.object.points != 0.0;
     }
   }
 

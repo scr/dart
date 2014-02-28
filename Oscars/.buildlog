@@ -1380,3 +1380,33 @@ build.dart --machine --changed=web/oscar-nominee.dart
 
 build.dart finished [959 ms]
 
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [963 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [973 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [927 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [993 ms]
+
+---
+build.dart --machine --changed=web/oscar-category.dart
+
+build.dart finished [961 ms]
+
