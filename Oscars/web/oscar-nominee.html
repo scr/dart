@@ -3,7 +3,7 @@
     <div class="nominee">
       <input type="checkbox" checked="{{checked}}" />
       <input type="number" value="{{points | asDouble}}" />
-      <span class="name">{{name}}</span>
+      <span class="name" on-click="{{nameClicked}}">{{name}}</span>
     </div>
   </template>
   <script type="application/dart" src="oscar-nominee.dart"></script>
