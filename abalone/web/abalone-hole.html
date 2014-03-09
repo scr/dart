@@ -1,4 +1,10 @@
 <polymer-element name="abalone-hole">
-  <template><g id="me"></g></template>
+  <template>
+    <svg on-mousemove="{{holeMoved}}" on-mouseover="{{holeHovered}}" on-click="{{holeClicked}}">
+      <g>
+        <circle cx="25" cy="25" r="23" stroke="green" stroke-width="4" fill="{{color}}"></circle>
+      </g>
+    </svg>
+  </template>
   <script type="application/dart" src="abalone-hole.dart"></script>
 </polymer-element>

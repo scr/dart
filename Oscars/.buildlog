@@ -363,6 +363,7 @@ build.dart --machine --changed=web/shared.css
 build.dart finished [997 ms]
 
 ---
+<<<<<<< Updated upstream
 build.dart --machine --changed=pubspec.lock --changed=web/oscar-category.html --changed=web/oscar-entries.dart ...
 
 build.dart finished [954 ms]
@@ -1409,4 +1410,16 @@ build.dart finished [993 ms]
 build.dart --machine --changed=web/oscar-category.dart
 
 build.dart finished [961 ms]
+=======
+build.dart --machine --full
+
+build.dart finished [1210 ms]
+>>>>>>> Stashed changes
+
+---
+build.dart --machine --changed=web/oscar-category.dart --changed=web/oscar-category.html --changed=web/oscar-en...
+[{"method":"error","params":{"file":"web/oscar-category.html","message":"couldn't find imported asset \"web/oscar-nominee.html\" in package \"Oscars\".","line":1,"charStart":0,"charEnd":47}}]
+[{"method":"warning","params":{"file":"web/oscar-category.html","message":"definition for Polymer element with tag name \"oscar-nominee\" not found.","line":9,"charStart":300,"charEnd":334}}]
+build failed with errors: {Transform polymer (Linter) on Oscars|web/oscar-category.html threw error: couldn't find imported asset "web/oscar-nominee.html" in package "Oscars".}
+build.dart finished [2605 ms]
 

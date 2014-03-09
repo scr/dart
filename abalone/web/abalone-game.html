@@ -2,8 +2,19 @@
 
 <polymer-element name="abalone-game">
   <template>
-    <div>AG!!!</div>
-    <abalone-board></abalone-board>
+    <div class="test" id="test">test div</div>
+    <div id="board">
+      <div class="controls">
+        <label>Num players:
+          <select value="{{numPlayers | asInt}}" id="num-players">
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </label>
+        <button on-click="{{setupClicked}}">Set up</button>
+      </div>
+      <abalone-board id="board"></abalone-board>
+    </div>
   </template>
   <script type="application/dart" src="abalone-game.dart"></script>
 </polymer-element>

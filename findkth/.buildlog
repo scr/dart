@@ -2544,6 +2544,7 @@ build.dart --machine --changed=web/find-kth.html
 build.dart finished [842 ms]
 
 ---
+<<<<<<< Updated upstream
 build.dart --machine --changed=web/find-kth.css
 
 build.dart finished [815 ms]
@@ -3132,4 +3133,14 @@ build.dart finished [1088 ms]
 build.dart --machine --changed=build/find-kth.css --changed=build/findkth.css --changed=build/index.html --chan...
 
 build.dart finished [1000 ms]
+=======
+build.dart --machine --full
+
+build.dart finished [1256 ms]
+>>>>>>> Stashed changes
+
+---
+build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web/find-kth.css --changed=web/ind...
+
+build.dart finished [1709 ms]
 

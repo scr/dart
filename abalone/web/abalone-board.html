@@ -1,11 +1,19 @@
-<link rel="import" href="abalone-hole.html" />
+<link rel="import" href="abalone-row.html" />
 <link rel="import" href="abalone-tray.html" />
 
 <polymer-element name="abalone-board">
   <template>
     <abalone-tray></abalone-tray>
     <div id="board">
-    <abalone-hole></abalone-hole>
+      <abalone-row count="5"></abalone-row>
+      <abalone-row count="6"></abalone-row>
+      <abalone-row count="7"></abalone-row>
+      <abalone-row count="8"></abalone-row>
+      <abalone-row count="9"></abalone-row>
+      <abalone-row count="8"></abalone-row>
+      <abalone-row count="7"></abalone-row>
+      <abalone-row count="6"></abalone-row>
+      <abalone-row count="5"></abalone-row>
     </div>
   </template>
   <script type="application/dart" src="abalone-board.dart"></script>
