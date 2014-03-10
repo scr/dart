@@ -22,14 +22,12 @@ class AbaloneHole extends PolymerElement {
   clear() {
     color = EMPTY_COLOR;
   }
-  holeHovered(Event e, var detail, Node target) {
-    print('hovering:' + e.toString() + ',' + detail.toString());
-    print('x=' + (e as MouseEvent).client.x.toString());
-    print('y=' + (e as MouseEvent).client.y.toString());
+  holeEntered(Event e, var detail, Node target) {
+    var id = (target as Element).id;
+    print('enter ' + id);
   }
-  holeMoved(Event e, var detail, Node target) {
-    print('move:' + e.toString() + ',' + detail.toString());
-    print('x=' + (e as MouseEvent).client.x.toString());
-    print('y=' + (e as MouseEvent).client.y.toString());
+  holeOut(Event e, var detail, Node target) {
+    var id = (target as Element).id;
+    print('out ' + id);
   }
 }

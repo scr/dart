@@ -25,6 +25,24 @@ abalone-game ^^ abalone-hole svg {
   margin-right: 4px;
   //background-color: blue;
 }
+abalone-game ^^ abalone-hole ^^ #tr {
+  cursor: sw-resize;
+}
+abalone-game ^^ abalone-hole ^^ #ri {
+  cursor: w-resize;
+}
+abalone-game ^^ abalone-hole ^^ #br {
+  cursor: nw-resize;
+}
+abalone-game ^^ abalone-hole ^^ #bl {
+  cursor: ne-resize;
+}
+abalone-game ^^ abalone-hole ^^ #le {
+  cursor: e-resize;
+}
+abalone-game ^^ abalone-hole ^^ #tl {
+  cursor: se-resize;
+}
 
 abalone-game ^^ abalone-row .row {
   display: flex;
