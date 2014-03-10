@@ -1,3 +1,5 @@
+library abaloneTray;
+
 import 'package:polymer/polymer.dart';
 
 /**

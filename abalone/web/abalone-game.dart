@@ -1,3 +1,5 @@
+library abaloneGame;
+
 import 'package:polymer/polymer.dart';
 import 'ui-filters.dart';
 import 'package:polymer_expressions/filter.dart' show Transformer;

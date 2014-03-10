@@ -1,20 +1,20 @@
 <polymer-element name="abalone-hole">
   <template>
-    <svg on-click="{{holeClicked}}">
+    <svg>
       <g>
         <circle cx="25" cy="25" r="23" stroke="green" stroke-width="4" fill="{{color}}"></circle>
         <path d="M 25 0 A 25 25 0 0 1 46.65063509461097 12.5 L 25 25 Z"
-          fill="transparent" on-mouseenter="{{holeEntered}}" on-mouseout="{{holeOut}}" id="tr" />
+          fill="transparent" on-click="{{holeClicked}}" id="tr" />
         <path d="M 46.65063509461097 12.5 A 25 25 0 0 1 46.65063509461097 37.5 L 25 25 Z"
-          fill="transparent" on-mouseenter="{{holeEntered}}" on-mouseout="{{holeOut}}" id="ri" />
+          fill="transparent" on-click="{{holeClicked}}" id="ri" />
         <path d="M 46.65063509461097 37.5 A 25 25 0 0 1 25 50 L 25 25 Z"
-          fill="transparent" on-mouseenter="{{holeEntered}}" on-mouseout="{{holeOut}}" id="br" />
+          fill="transparent" on-click="{{holeClicked}}" id="br" />
         <path d="M 25 50 A 25 25 0 0 1 3.349364905389031 37.5 L 25 25 Z"
-          fill="transparent" on-mouseenter="{{holeEntered}}" on-mouseout="{{holeOut}}" id="bl" />
+          fill="transparent" on-click="{{holeClicked}}" id="bl" />
         <path d="M 3.349364905389031 37.5 A 25 25 0 0 1 3.3493649053890273 12.5 L 25 25 Z"
-          fill="transparent" on-mouseenter="{{holeEntered}}" on-mouseout="{{holeOut}}" id="le" />
+          fill="transparent" on-click="{{holeClicked}}" id="le" />
         <path d="M 3.3493649053890273 12.5 A 25 25 0 0 1 25 0 L 25 25 Z"
-          fill="transparent" on-mouseenter="{{holeEntered}}" on-mouseout="{{holeOut}}" id="tl" />
+          fill="transparent" on-click="{{holeClicked}}" id="tl" />
       </g>
     </svg>
   </template>
