@@ -17,7 +17,7 @@ class AbaloneHole extends PolymerElement {
 
   AbaloneHole.created() : super.created();
   
-  final String EMPTY_COLOR = 'transparent';
+  static final String EMPTY_COLOR = 'transparent';
   
   holeClicked(Event e, var detail, Node target) {
     board.holeClicked(this,  (target as Element).id);

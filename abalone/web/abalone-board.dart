@@ -99,6 +99,33 @@ class AbaloneBoard extends PolymerElement {
         break;
     }
   }
+  
+  int countSame(List<AbaloneHole> row, int x, int offset) {
+    String sameColor = row[x].color;
+    if (sameColor == AbaloneHole.EMPTY_COLOR)
+      return 0;
+
+    int sameCount = 0;
+    while (x >= 0 && x < row.length && row[x].color == sameColor) {
+      x += offset;
+      ++sameCount;
+    }
+    
+    return sameCount;
+  }
+  
+  int getNewX(List<AbaloneHole> row, int x, int offset) {
+    int myCount = countSame(row, x, offset);
+    if (myCount <= 0 || myCount > 3)
+      return -1;
+
+    int newX = x + offset * myCount;
+    int otherCount = countSame(row, newX, offset);
+    if (otherCount >= myCount)
+      return -1;
+    
+    return x + offset * (myCount + otherCount);
+  }
     
   holeClicked(AbaloneHole hole, String direction) {
     List<List<AbaloneHole>> rows;
@@ -145,10 +172,11 @@ class AbaloneBoard extends PolymerElement {
     }
     print('clicked ' + direction + ' ' + boardPt.toString() + ' ' + offset.toString());
     List<AbaloneHole> row = rows[boardPt.y];
-    int newX = boardPt.x + offset;
-    if (newX >= 0 && newX < row.length) {
-      row[newX].color = row[boardPt.x].color;
-      row[boardPt.x].clear();
+    int newX = getNewX(row, boardPt.x, offset);
+    for (int i = newX; i != boardPt.x; i -= offset) {
+      if (i >= 0 && i < row.length)
+        row[i].color = row[i - offset].color;
     }
+    row[boardPt.x].clear();
   }
 }
