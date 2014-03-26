@@ -27,15 +27,16 @@ body ^^ .category {
   flex-direction: row;
   align-content: stretch;
 }
-body ^^ .name,
-body ^^ .nominees {
+body ^^ oscar-category .name,
+body ^^ oscar-category .nominees,
+body ^^ oscar-category .info {
   flex-basis: 20%;
 }
-body ^^ .nominees {
+body ^^ oscar-category .nominees {
   flex-grow: 1;
 }
 
-body ^^ .nominee {
+body ^^ oscar-nominee .nominee {
   display: flex;
   flex-direction: row;
 }

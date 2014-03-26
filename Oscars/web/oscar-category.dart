@@ -6,6 +6,8 @@ import 'oscar-nominee.dart';
 class OscarCategory extends PolymerElement {
   @published String name;
   @published List<String> nominees = toObservable([]);
+  @observable double pointsUsed = 0.0;
+  @observable double pointsLeft = 0.0;
 
   MutationObserver observer;
   List<OscarNominee> oscarNominees = [];
@@ -21,7 +23,7 @@ class OscarCategory extends PolymerElement {
   
   onChildChange(PropertyChangeRecord record) {
     print('childchange $record');
-    if (record.name == #checked) {
+    if (record.name == #userChecked) {
       int numNominees = oscarNominees.length;
       int numCheckedNominees = 0;
       oscarNominees.forEach((OscarNominee nominee) {
@@ -30,11 +32,20 @@ class OscarCategory extends PolymerElement {
       });
       double splitScore = numNominees / numCheckedNominees;
       print(splitScore);
+      double newPointsUsed = 0.0; 
       oscarNominees.forEach((OscarNominee nominee) {
         nominee.points = nominee.checked ? splitScore : 0.0;
+        newPointsUsed += nominee.points;
       });
+      pointsUsed = newPointsUsed;
+      pointsLeft = nominees.length - newPointsUsed;
     } else if (record.name == #points) {
-      record.object.checked = record.object.points != 0.0;
+      double newPointsUsed = 0.0; 
+      oscarNominees.forEach((OscarNominee nominee) {
+        newPointsUsed += nominee.points;
+      });
+      pointsUsed = newPointsUsed;
+      pointsLeft = nominees.length - newPointsUsed;
     }
   }
 
@@ -50,5 +61,6 @@ class OscarCategory extends PolymerElement {
     oscarNominees.clear();
     ElementList oscar_nominees = $['nominees'].querySelectorAll('oscar-nominee');
     oscarNominees..addAll(oscar_nominees)..forEach(listen);
-  }
+    pointsLeft = nominees.length - pointsUsed;
+}
 }

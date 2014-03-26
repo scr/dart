@@ -2,7 +2,7 @@
   <template>
     <div class="nominee">
       <input type="checkbox" checked="{{checked}}" />
-      <input type="number" value="{{points | asDouble}}" />
+      <input type="number" on-change="{{pointsChanged}}" value="{{pointsString}}" />
       <span class="name" on-click="{{nameClicked}}">{{name}}</span>
     </div>
   </template>

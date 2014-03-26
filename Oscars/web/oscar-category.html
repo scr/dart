@@ -3,7 +3,21 @@
 <polymer-element name="oscar-category" attributes="name,nominees">
   <template>
     <div class="category">
-      <div class="name">{{name}}</div>
+      <div class="info">
+        <div class="name">{{name}}</div>
+        <div class="points-used">
+          <label>pointsUsed: </label>
+          <span>{{pointsUsed}}</span>
+        </div>
+        <div class="total-points">
+          <label>totalPoints:</label>
+          <span>{{nominees.length}}</span>
+        </div>
+        <div class="points-left">
+          <label>pointsLeft: </label>
+          <span>{{pointsLeft}}</span>
+        </div>
+      </div>
       <div class="nominees" id="nominees">
         <template repeat="{{nominee in nominees}}">
           <oscar-nominee name="{{nominee}}"></oscar-nominee>
