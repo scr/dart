@@ -1,4 +1,3 @@
-import 'dart:html';
 import 'package:polymer_expressions/filter.dart' show Transformer;
 import 'package:polymer/polymer.dart';
 import 'ui-filters.dart';
@@ -19,13 +18,6 @@ class FindKth extends PolymerElement {
   final Transformer asSpaceSepInts = new SpaceSepStringToInts();
 
   FindKth.created() : super.created();
-  
-  int min(int left, int right) {
-    if (left < right)
-      return left;
-    else
-      return right;
-  }
   
   // Step helpers
   void addRecurseStep(int leftOffset, int rightOffset, int k) =>
