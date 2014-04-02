@@ -31,3 +31,19 @@ html {
   padding: 1em;
   border: 2px groove blue;
 }
+
+.item img {
+  max-width: 80px;
+}
+.item .summary {
+  display: inline;
+}
+
+.entities .entity {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 4px;
+}
