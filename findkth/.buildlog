@@ -3149,3 +3149,25 @@ build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web
 
 build.dart finished [3426 ms]
 
+---
+build.dart --machine --full
+Unable to open file: /Users/scr/dev/github/dart/findkth/packages/polymer/builder.dart'file:///Users/scr/dev/github/dart/findkth/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [64 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [902 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [911 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [915 ms]
+
