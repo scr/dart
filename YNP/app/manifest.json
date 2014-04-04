@@ -1,0 +1,18 @@
+{
+  "name": "YN",
+  "version": "1.0.1",
+  
+  "manifest_version": 2,
+  
+  "icons": {"128": "dart_icon.png"},
+  
+  "permissions": [
+    "http://*/*"
+  ],
+  
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}

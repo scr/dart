@@ -1,0 +1,17 @@
+<polymer-element name="slingstone-news-item">
+  <template>
+    <div class="item">
+      <div class="title">{{title}}</div>
+      <div class="content">
+        <img>
+        <div class="summary">{{summary}}</div>
+      </div>
+      <div class="explanation">
+        <template repeat="{{entity in entities}}">
+          <div class="entity">{{entity['name']}} cap={{entity['capAbtScore']}}</div>
+        </template>
+      </div>
+    </div>
+  </template>
+  <script type="application/dart" src="slingstone-news-item.dart"></script>
+</polymer-element>

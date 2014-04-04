@@ -1,0 +1,35 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+slingstone-news ^^ .item {
+  margin: 2px;
+  padding: 1em;
+  border: 2px groove blue;
+}
+
+slingstone-news ^^ img {
+  max-width: 80px;
+}
+
+slingstone-news ^^ .summary {
+  display: inline;
+}
+
+slingstone-news ^^ .entity {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 4px;
+}
