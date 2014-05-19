@@ -1,0 +1,7 @@
+name: sho_me
+description: A sample Chrome packaged application
+dependencies:
+  chrome: any
+  polymer: any
+transformers:
+- chrome
